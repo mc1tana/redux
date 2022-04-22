@@ -1,0 +1,14 @@
+.naside{
+    width: 100%;
+    height: 8vh;
+    
+    background: linear-gradient(90deg,rgb(152, 5, 237),rgb(83, 3, 162));
+    position: fixed;
+    top:0;
+}
+.naside ul{
+    width:60%;
+   
+    color:white !important;
+    
+}
