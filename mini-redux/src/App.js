@@ -6,6 +6,7 @@ import Home from './View/Home/HomeComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Create from './View/Create/CreateComponent';
 import Contact from './View/Contact/ContactComponent';
+import Detail from './View/Detail/DetailComponent';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route element={<Home/>} path="/home" />
         <Route element={<Create/>} path="/create" />
         <Route element={<Contact/>} path="/contact" />
+        <Route element={<Detail/>} path="/detail" />
         <Route element={<Home/>} path="*" />
 
       </Routes>
